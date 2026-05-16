@@ -281,3 +281,9 @@ API profile 可使用 openai_base_url，订阅 profile 不要设置 openai_base_
 ## 一句话总结
 
 把 API 登录、ChatGPT/GPT 订阅登录、SQLite 历史记录、JSONL session 元数据里的 provider id 全部统一成小写 `openai`。API 模式通过 `openai_base_url` 指向自定义接口，订阅模式不设置 base URL。
+
+## 致谢
+
+感谢 Codex/GPT 协助定位 `model_provider` 分裂问题、验证修复路径并整理这份教程。
+
+感谢 Claude 参与前期排查和交接，为后续定位提供了线索。
